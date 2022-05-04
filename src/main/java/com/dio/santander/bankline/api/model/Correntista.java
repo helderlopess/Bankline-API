@@ -13,7 +13,6 @@ public class Correntista {
 		this.conta = conta;
 	}
 	
-	}
 	public Integer getId() {
 		return id;
 	}
@@ -33,6 +32,4 @@ public class Correntista {
 		this.nome = nome;
 	}
 	
-	
-
 }

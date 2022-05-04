@@ -1,15 +1,17 @@
 package com.dio.santander.bankline.api.model;
 
+import java.time.LocalDateTime;
+
 public class Movimentacao {
-	private Intever id;
+	private Integer id;
 	private LocalDateTime dataHora;
 	private String descricao;
 	private Double valor;
 	private MovimentacaoTipo tipo;
-	public Intever getId() {
+	public Integer getId() {
 		return id;
 	}
-	public void setId(Intever id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	public LocalDateTime getDataHora() {
